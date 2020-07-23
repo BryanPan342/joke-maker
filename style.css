@@ -12,13 +12,14 @@ body {
     place-items: center;
 }
 
-h1 {
+.header {
     z-index: 2;
     margin: 5% 5%;
-    font-size: xxx-large;
+    font-size: calc(100);
     padding: 5% 5%;
     font-family: 'Corben';
     font-weight: 900;
+    grid-row: 1;
 }
 
 .wrapper {
@@ -28,6 +29,7 @@ h1 {
     background-color: #f26157;
     display: grid;
     place-items: center;
+    grid-template-rows: 40% 60%;
 }
 
 .text {
@@ -35,5 +37,6 @@ h1 {
     height: 60%;
     margin: 10% 10%;
     font-size: x-large;
+    grid-row: 0;
 }
 
