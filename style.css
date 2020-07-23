@@ -15,10 +15,11 @@ body {
 .header {
     z-index: 2;
     margin: 5% 5%;
-    font-size: xx-large;
+    font-size: xxx-large;
     padding: 5% 5%;
     font-family: 'Corben';
     font-weight: 900;
+    grid-row: 1;
 }
 
 .wrapper {
@@ -28,6 +29,7 @@ body {
     background-color: #f26157;
     display: grid;
     place-items: center;
+    grid-template-rows: 40% 60%;
 }
 
 .text {
@@ -35,5 +37,6 @@ body {
     height: 60%;
     margin: 10% 10%;
     font-size: x-large;
+    grid-row: 0;
 }
 
